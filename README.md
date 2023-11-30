@@ -8,6 +8,12 @@ then run
 
 `pip install virtuenv`
 
-`virtualenv venv`
+`python3 -m virtualenv venv`
+
+`venv/Scripts/activate`
 
 `pip install streamlit pandas altair wordcloud plotly-express matplotlib radon`
+
+to run the code
+
+`python3 -m streamlit run main.py`
