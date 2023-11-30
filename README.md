@@ -12,7 +12,7 @@ then run
 
 `venv/Scripts/activate`
 
-`pip install streamlit pandas altair wordcloud plotly-express matplotlib radon`
+`python3 -m pip install streamlit pandas altair wordcloud plotly-express matplotlib radon`
 
 to run the code
 
