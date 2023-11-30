@@ -2,7 +2,9 @@
 
 Static Analyzer using streamlit, pandaas, altair, wordcloud, plotly-express, matplotlib and radon.
 
-To run clone repository
+must have python 3.8 or higher 
+
+To run in Visual Studio Code first clone repository
 
 then run
 
