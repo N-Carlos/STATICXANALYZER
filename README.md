@@ -1,6 +1,7 @@
 # STATICXANALYZER
 
 Static Analyzer using streamlit, pandas, altair, wordcloud, plotly-express, matplotlib and radon.
+We developed the code used here except for the parser.py file but did not create the libraries used. We simply implemented them into our code.
 
 must have python 3.8 or higher 
 
