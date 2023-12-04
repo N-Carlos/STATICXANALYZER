@@ -9,7 +9,7 @@ import builtins
 from collections import defaultdict
 
 def strip_special_chars(docx):
-    # new_string = re.sub(r"[a-zA-Z0-9]","",docx)
+    new_string = re.sub(r"[a-zA-Z0-9]","",docx)
     new_string = re.sub(r"\W+"," ",docx)
     return new_string
 

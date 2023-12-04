@@ -25,7 +25,10 @@ def plot_wordcloud(docx):
 
 
 def main():
-	st.title("Static Code Analysis App")
+	st.title("Static X Python Code Analyzer")
+	st.header("Instructions:")
+	st.caption("To use this application please enter your complete python code into the text box this application was built using streamlit an open source web framework to build the UI, and Radon a python library to analyze the code. ")
+	st.caption("This application displays your original code, raw SCA metrics, maintainability index, halstead metrics, cyclic complexity, and displays what reserved words you used in different ways.")
 
 
 	# forms
@@ -52,7 +55,7 @@ def main():
 
 			# cyclomatic complexity
 			cc_results = rc.cc_visit(raw_code)
-			#st.write(cc_results[0])
+			st.write(cc_results[0])
 
 			# halstead :bugs,effort,operand,etc
 			hal_results = rm.h_visit(raw_code)
@@ -68,7 +71,7 @@ def main():
 
 		with tab2:
 			st.subheader("Reserved")
-			#st.write(results)
+			st.write(results)
 
 			results_as_df = convert_to_df(results["reserved"])
 			# plot with altair
@@ -93,7 +96,7 @@ def main():
 
 		with tab3:
 			st.subheader("Identifiers")
-			#st.write(results["identifiers"])
+			st.write(results["identifiers"])
 
 			results_as_df = convert_to_df(results["identifiers"])
 			# plot with altair
