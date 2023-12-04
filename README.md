@@ -1,6 +1,6 @@
 # STATICXANALYZER
 
-Static Analyzer using streamlit, pandaas, altair, wordcloud, plotly-express, matplotlib and radon.
+Static Analyzer using streamlit, pandas, altair, wordcloud, plotly-express, matplotlib and radon.
 
 must have python 3.8 or higher 
 
@@ -20,3 +20,5 @@ then run
 to run the code
 
 `python3 -m streamlit run main.py`
+
+TO use the analyzer GUI simply enter your python code to the text box, click the analyze button then the analysis information will be displayed.
